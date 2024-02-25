@@ -1,0 +1,17 @@
+Funcionalidades:
+1.- Todos los años divisibles por  400 SON años bisiestos (así, por ejemplo, 2000 fue un año bisiesto),
+2.- Todos los años divisibles por 100 pero no por 400 NO son años bisiestos
+(por ejemplo, 1700, 1800 y 1900 NO fueron años bisiestos, NI 2100 será un año bisiesto),
+3.- Todos los años divisibles por 4 pero no por 100 SON años bisiestos (por ejemplo, 2008, 2012, 2016),
+4.- Todos los años que no son divisibles por 4 NO son años bisiestos (por ejemplo, 2017, 2018, 2019).
+
+
+Casos de Prueba(Es bisiesto(TRUE), No es bisiesto(FALSE)):
+1.- Todos los años divisibles por  400 SON años bisiestos
+    1.1 TRUE: Si genero un año divisible por 400 como el 2000
+2.- Todos los años divisibles por 100 pero no por 400 NO son años bisiestos
+    2.1 FALSE: Si genero un año divisible por 100 pero no por 400 como el 1900
+3.- Todos los años divisibles por 4 pero no por 100 SON años bisiestos
+    3.1 TRUE: Si genero un año divisible por 4 pero no por 100 como el 2008
+4.- Todos los años que no son divisibles por 4 NO son años bisiestos (por ejemplo, 2017, 2018, 2019).
+    4.1 FALSE: Si genero un año que no es divisible entre 4 como el 2017
