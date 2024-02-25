@@ -5,5 +5,9 @@ describe("Bisiesto", () => {
     expect(generarBisisesto(2000)).toEqual(true);
   });
 
+  it("Deberia generar TRUE para cuqluier año divisible entre 400", () => {
+    expect(generarBisisesto(2400)).toEqual(true);
+  });
+
 });
 

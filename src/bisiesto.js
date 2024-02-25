@@ -1,5 +1,5 @@
 function generarBisisesto(n){
-    if(n === 2000)
+    if(n % 400 === 0)
       return true;
 
 }
